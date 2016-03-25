@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C36F52E1CA5581F0057A969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F52D1CA5581F0057A969 /* main.m */; };
+		5C36F5311CA5581F0057A969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5301CA5581F0057A969 /* AppDelegate.m */; };
+		5C36F5341CA5581F0057A969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5331CA5581F0057A969 /* ViewController.m */; };
+		5C36F5371CA5581F0057A969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F5351CA5581F0057A969 /* Main.storyboard */; };
+		5C36F5391CA5581F0057A969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F5381CA5581F0057A969 /* Assets.xcassets */; };
+		5C36F53C1CA5581F0057A969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F53A1CA5581F0057A969 /* LaunchScreen.storyboard */; };
+		5C36F5471CA5581F0057A969 /* YYTouchIDManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5461CA5581F0057A969 /* YYTouchIDManagerDemoTests.m */; };
+		5C36F5521CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5511CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m */; };
+		5C36F5621CA558D80057A969 /* YYTouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5611CA558D80057A969 /* YYTouchIDManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C36F5431CA5581F0057A969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C36F5211CA5581F0057A969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C36F5281CA5581F0057A969;
+			remoteInfo = YYTouchIDManagerDemo;
+		};
+		5C36F54E1CA5581F0057A969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C36F5211CA5581F0057A969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C36F5281CA5581F0057A969;
+			remoteInfo = YYTouchIDManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C36F5291CA5581F0057A969 /* YYTouchIDManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYTouchIDManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C36F52D1CA5581F0057A969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C36F52F1CA5581F0057A969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C36F5301CA5581F0057A969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C36F5321CA5581F0057A969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C36F5331CA5581F0057A969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C36F5361CA5581F0057A969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C36F5381CA5581F0057A969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C36F53B1CA5581F0057A969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C36F53D1CA5581F0057A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C36F5421CA5581F0057A969 /* YYTouchIDManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTouchIDManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C36F5461CA5581F0057A969 /* YYTouchIDManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManagerDemoTests.m; sourceTree = "<group>"; };
+		5C36F5481CA5581F0057A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C36F54D1CA5581F0057A969 /* YYTouchIDManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTouchIDManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C36F5511CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManagerDemoUITests.m; sourceTree = "<group>"; };
+		5C36F5531CA5581F0057A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C36F5601CA558D80057A969 /* YYTouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTouchIDManager.h; sourceTree = "<group>"; };
+		5C36F5611CA558D80057A969 /* YYTouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C36F5261CA5581F0057A969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C36F53F1CA5581F0057A969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C36F54A1CA5581F0057A969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C36F5201CA5581F0057A969 = {
+			isa = PBXGroup;
+			children = (
+				5C36F52B1CA5581F0057A969 /* YYTouchIDManagerDemo */,
+				5C36F5451CA5581F0057A969 /* YYTouchIDManagerDemoTests */,
+				5C36F5501CA5581F0057A969 /* YYTouchIDManagerDemoUITests */,
+				5C36F52A1CA5581F0057A969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C36F52A1CA5581F0057A969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C36F5291CA5581F0057A969 /* YYTouchIDManagerDemo.app */,
+				5C36F5421CA5581F0057A969 /* YYTouchIDManagerDemoTests.xctest */,
+				5C36F54D1CA5581F0057A969 /* YYTouchIDManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C36F52B1CA5581F0057A969 /* YYTouchIDManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C36F55F1CA558B30057A969 /* YYTouchIDManager */,
+				5C36F52F1CA5581F0057A969 /* AppDelegate.h */,
+				5C36F5301CA5581F0057A969 /* AppDelegate.m */,
+				5C36F5321CA5581F0057A969 /* ViewController.h */,
+				5C36F5331CA5581F0057A969 /* ViewController.m */,
+				5C36F5351CA5581F0057A969 /* Main.storyboard */,
+				5C36F5381CA5581F0057A969 /* Assets.xcassets */,
+				5C36F53A1CA5581F0057A969 /* LaunchScreen.storyboard */,
+				5C36F53D1CA5581F0057A969 /* Info.plist */,
+				5C36F52C1CA5581F0057A969 /* Supporting Files */,
+			);
+			path = YYTouchIDManagerDemo;
+			sourceTree = "<group>";
+		};
+		5C36F52C1CA5581F0057A969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C36F52D1CA5581F0057A969 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C36F5451CA5581F0057A969 /* YYTouchIDManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C36F5461CA5581F0057A969 /* YYTouchIDManagerDemoTests.m */,
+				5C36F5481CA5581F0057A969 /* Info.plist */,
+			);
+			path = YYTouchIDManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		5C36F5501CA5581F0057A969 /* YYTouchIDManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C36F5511CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m */,
+				5C36F5531CA5581F0057A969 /* Info.plist */,
+			);
+			path = YYTouchIDManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		5C36F55F1CA558B30057A969 /* YYTouchIDManager */ = {
+			isa = PBXGroup;
+			children = (
+				5C36F5601CA558D80057A969 /* YYTouchIDManager.h */,
+				5C36F5611CA558D80057A969 /* YYTouchIDManager.m */,
+			);
+			path = YYTouchIDManager;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C36F5281CA5581F0057A969 /* YYTouchIDManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C36F5561CA5581F0057A969 /* Build configuration list for PBXNativeTarget "YYTouchIDManagerDemo" */;
+			buildPhases = (
+				5C36F5251CA5581F0057A969 /* Sources */,
+				5C36F5261CA5581F0057A969 /* Frameworks */,
+				5C36F5271CA5581F0057A969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYTouchIDManagerDemo;
+			productName = YYTouchIDManagerDemo;
+			productReference = 5C36F5291CA5581F0057A969 /* YYTouchIDManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C36F5411CA5581F0057A969 /* YYTouchIDManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C36F5591CA5581F0057A969 /* Build configuration list for PBXNativeTarget "YYTouchIDManagerDemoTests" */;
+			buildPhases = (
+				5C36F53E1CA5581F0057A969 /* Sources */,
+				5C36F53F1CA5581F0057A969 /* Frameworks */,
+				5C36F5401CA5581F0057A969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C36F5441CA5581F0057A969 /* PBXTargetDependency */,
+			);
+			name = YYTouchIDManagerDemoTests;
+			productName = YYTouchIDManagerDemoTests;
+			productReference = 5C36F5421CA5581F0057A969 /* YYTouchIDManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C36F54C1CA5581F0057A969 /* YYTouchIDManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C36F55C1CA5581F0057A969 /* Build configuration list for PBXNativeTarget "YYTouchIDManagerDemoUITests" */;
+			buildPhases = (
+				5C36F5491CA5581F0057A969 /* Sources */,
+				5C36F54A1CA5581F0057A969 /* Frameworks */,
+				5C36F54B1CA5581F0057A969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C36F54F1CA5581F0057A969 /* PBXTargetDependency */,
+			);
+			name = YYTouchIDManagerDemoUITests;
+			productName = YYTouchIDManagerDemoUITests;
+			productReference = 5C36F54D1CA5581F0057A969 /* YYTouchIDManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C36F5211CA5581F0057A969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Joe;
+				TargetAttributes = {
+					5C36F5281CA5581F0057A969 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9WSTNS4B5;
+					};
+					5C36F5411CA5581F0057A969 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9WSTNS4B5;
+						TestTargetID = 5C36F5281CA5581F0057A969;
+					};
+					5C36F54C1CA5581F0057A969 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9WSTNS4B5;
+						TestTargetID = 5C36F5281CA5581F0057A969;
+					};
+				};
+			};
+			buildConfigurationList = 5C36F5241CA5581F0057A969 /* Build configuration list for PBXProject "YYTouchIDManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C36F5201CA5581F0057A969;
+			productRefGroup = 5C36F52A1CA5581F0057A969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C36F5281CA5581F0057A969 /* YYTouchIDManagerDemo */,
+				5C36F5411CA5581F0057A969 /* YYTouchIDManagerDemoTests */,
+				5C36F54C1CA5581F0057A969 /* YYTouchIDManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C36F5271CA5581F0057A969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C36F53C1CA5581F0057A969 /* LaunchScreen.storyboard in Resources */,
+				5C36F5391CA5581F0057A969 /* Assets.xcassets in Resources */,
+				5C36F5371CA5581F0057A969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C36F5401CA5581F0057A969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C36F54B1CA5581F0057A969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C36F5251CA5581F0057A969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C36F5341CA5581F0057A969 /* ViewController.m in Sources */,
+				5C36F5311CA5581F0057A969 /* AppDelegate.m in Sources */,
+				5C36F5621CA558D80057A969 /* YYTouchIDManager.m in Sources */,
+				5C36F52E1CA5581F0057A969 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C36F53E1CA5581F0057A969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C36F5471CA5581F0057A969 /* YYTouchIDManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C36F5491CA5581F0057A969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C36F5521CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C36F5441CA5581F0057A969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C36F5281CA5581F0057A969 /* YYTouchIDManagerDemo */;
+			targetProxy = 5C36F5431CA5581F0057A969 /* PBXContainerItemProxy */;
+		};
+		5C36F54F1CA5581F0057A969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C36F5281CA5581F0057A969 /* YYTouchIDManagerDemo */;
+			targetProxy = 5C36F54E1CA5581F0057A969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C36F5351CA5581F0057A969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C36F5361CA5581F0057A969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C36F53A1CA5581F0057A969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C36F53B1CA5581F0057A969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C36F5541CA5581F0057A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C36F5551CA5581F0057A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C36F5571CA5581F0057A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYTouchIDManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DM.YYTouchIDManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C36F5581CA5581F0057A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YYTouchIDManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DM.YYTouchIDManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C36F55A1CA5581F0057A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYTouchIDManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DM.YYTouchIDManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYTouchIDManagerDemo.app/YYTouchIDManagerDemo";
+			};
+			name = Debug;
+		};
+		5C36F55B1CA5581F0057A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YYTouchIDManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DM.YYTouchIDManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYTouchIDManagerDemo.app/YYTouchIDManagerDemo";
+			};
+			name = Release;
+		};
+		5C36F55D1CA5581F0057A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYTouchIDManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DM.YYTouchIDManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYTouchIDManagerDemo;
+			};
+			name = Debug;
+		};
+		5C36F55E1CA5581F0057A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YYTouchIDManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DM.YYTouchIDManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YYTouchIDManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C36F5241CA5581F0057A969 /* Build configuration list for PBXProject "YYTouchIDManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C36F5541CA5581F0057A969 /* Debug */,
+				5C36F5551CA5581F0057A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C36F5561CA5581F0057A969 /* Build configuration list for PBXNativeTarget "YYTouchIDManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C36F5571CA5581F0057A969 /* Debug */,
+				5C36F5581CA5581F0057A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C36F5591CA5581F0057A969 /* Build configuration list for PBXNativeTarget "YYTouchIDManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C36F55A1CA5581F0057A969 /* Debug */,
+				5C36F55B1CA5581F0057A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C36F55C1CA5581F0057A969 /* Build configuration list for PBXNativeTarget "YYTouchIDManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C36F55D1CA5581F0057A969 /* Debug */,
+				5C36F55E1CA5581F0057A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C36F5211CA5581F0057A969 /* Project object */;
+}
