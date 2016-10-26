@@ -13,8 +13,6 @@
 		5C36F5371CA5581F0057A969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F5351CA5581F0057A969 /* Main.storyboard */; };
 		5C36F5391CA5581F0057A969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F5381CA5581F0057A969 /* Assets.xcassets */; };
 		5C36F53C1CA5581F0057A969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F53A1CA5581F0057A969 /* LaunchScreen.storyboard */; };
-		5C36F5471CA5581F0057A969 /* YYTouchIDManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5461CA5581F0057A969 /* YYTouchIDManagerDemoTests.m */; };
-		5C36F5521CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5511CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m */; };
 		5C36F5621CA558D80057A969 /* YYTouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5611CA558D80057A969 /* YYTouchIDManager.m */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		5C36F53B1CA5581F0057A969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C36F53D1CA5581F0057A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C36F5421CA5581F0057A969 /* YYTouchIDManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTouchIDManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C36F5461CA5581F0057A969 /* YYTouchIDManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManagerDemoTests.m; sourceTree = "<group>"; };
-		5C36F5481CA5581F0057A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C36F54D1CA5581F0057A969 /* YYTouchIDManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTouchIDManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C36F5511CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManagerDemoUITests.m; sourceTree = "<group>"; };
-		5C36F5531CA5581F0057A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C36F5601CA558D80057A969 /* YYTouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTouchIDManager.h; sourceTree = "<group>"; };
 		5C36F5611CA558D80057A969 /* YYTouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				5C36F52B1CA5581F0057A969 /* YYTouchIDManagerDemo */,
-				5C36F5451CA5581F0057A969 /* YYTouchIDManagerDemoTests */,
-				5C36F5501CA5581F0057A969 /* YYTouchIDManagerDemoUITests */,
 				5C36F52A1CA5581F0057A969 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,24 +116,6 @@
 				5C36F52D1CA5581F0057A969 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5C36F5451CA5581F0057A969 /* YYTouchIDManagerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				5C36F5461CA5581F0057A969 /* YYTouchIDManagerDemoTests.m */,
-				5C36F5481CA5581F0057A969 /* Info.plist */,
-			);
-			path = YYTouchIDManagerDemoTests;
-			sourceTree = "<group>";
-		};
-		5C36F5501CA5581F0057A969 /* YYTouchIDManagerDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5C36F5511CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m */,
-				5C36F5531CA5581F0057A969 /* Info.plist */,
-			);
-			path = YYTouchIDManagerDemoUITests;
 			sourceTree = "<group>";
 		};
 		5C36F55F1CA558B30057A969 /* YYTouchIDManager */ = {
@@ -297,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C36F5471CA5581F0057A969 /* YYTouchIDManagerDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C36F5521CA5581F0057A969 /* YYTouchIDManagerDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
