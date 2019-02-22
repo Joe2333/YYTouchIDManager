@@ -17,9 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    NSLog(@"做验证做验证");
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)action:(id)sender {
