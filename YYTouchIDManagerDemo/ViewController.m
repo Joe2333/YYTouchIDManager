@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"HAHAHAHHAHAHAHAHAHA");
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)action:(id)sender {
