@@ -14,6 +14,7 @@
 		5C36F5391CA5581F0057A969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F5381CA5581F0057A969 /* Assets.xcassets */; };
 		5C36F53C1CA5581F0057A969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C36F53A1CA5581F0057A969 /* LaunchScreen.storyboard */; };
 		5C36F5621CA558D80057A969 /* YYTouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C36F5611CA558D80057A969 /* YYTouchIDManager.m */; };
+		8407C1D7222002590034ABAD /* DDFFF.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407C1D6222002590034ABAD /* DDFFF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		5C36F54D1CA5581F0057A969 /* YYTouchIDManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYTouchIDManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C36F5601CA558D80057A969 /* YYTouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTouchIDManager.h; sourceTree = "<group>"; };
 		5C36F5611CA558D80057A969 /* YYTouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTouchIDManager.m; sourceTree = "<group>"; };
+		8407C1D5222002590034ABAD /* DDFFF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFFF.h; sourceTree = "<group>"; };
+		8407C1D6222002590034ABAD /* DDFFF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFFF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				5C36F5301CA5581F0057A969 /* AppDelegate.m */,
 				5C36F5321CA5581F0057A969 /* ViewController.h */,
 				5C36F5331CA5581F0057A969 /* ViewController.m */,
+				8407C1D5222002590034ABAD /* DDFFF.h */,
+				8407C1D6222002590034ABAD /* DDFFF.m */,
 				5C36F5351CA5581F0057A969 /* Main.storyboard */,
 				5C36F5381CA5581F0057A969 /* Assets.xcassets */,
 				5C36F53A1CA5581F0057A969 /* LaunchScreen.storyboard */,
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C36F5341CA5581F0057A969 /* ViewController.m in Sources */,
+				8407C1D7222002590034ABAD /* DDFFF.m in Sources */,
 				5C36F5311CA5581F0057A969 /* AppDelegate.m in Sources */,
 				5C36F5621CA558D80057A969 /* YYTouchIDManager.m in Sources */,
 				5C36F52E1CA5581F0057A969 /* main.m in Sources */,

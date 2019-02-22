@@ -18,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"这是一段测试的话术");
+    
 }
 - (IBAction)action:(id)sender {
     
