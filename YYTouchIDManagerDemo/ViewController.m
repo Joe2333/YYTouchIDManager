@@ -20,7 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)action:(id)sender {
-    NSLog(@"xinzenghuashu");
     [YYTouchIDManager verifyTouchID:^{
        
         NSLog(@"验证完成");
