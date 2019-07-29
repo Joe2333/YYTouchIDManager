@@ -12,5 +12,6 @@
 
 +(void)verifyTouchID:(void(^)())verifySuccess login:(void(^)())verifyLogin
 {
+    NSLog(@"这是一段测试话术！！");
 }
 @end
