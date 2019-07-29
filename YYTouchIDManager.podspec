@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YYTouchIDManager"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "A short description of YYTouchIDManager."
 
   # This description is used to generate tags and improve search results.
