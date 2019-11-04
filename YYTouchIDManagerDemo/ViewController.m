@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"这是一段测试话术");
-    
+    //测试
 }
 - (IBAction)action:(id)sender {
     [YYTouchIDManager verifyTouchID:^{
