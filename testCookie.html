@@ -1,0 +1,44 @@
+<html>  
+   <head>  
+	<script type="text/javascript">
+	function getCookie()
+	{
+		if (document.cookie.length>0)
+		{ 
+		return document.cookie.replace("downloadFlag=", '')
+		}
+	}
+ 
+	function setCookie()
+	{
+		var Days = 30;
+		var exp = new Date(); 
+		exp.setTime(exp.getTime() + Days*24*60*60*1000);
+		document.cookie="downloadFlag=true"+";expires="+exp.toGMTString();
+	}
+
+	function checkCookie()
+	{
+		downloadFlag=getCookie()
+		if (downloadFlag=="true")
+		{
+			window.location.href = "testCookie://downloadFlag"
+		}
+		else 
+		{
+			setCookie()
+		}
+	}
+	</script>
+
+	<title>  
+	   SafariDataToAppDemo
+	</title>  
+       <meta charset="utf-8">  
+   </head>  
+   <body onLoad="checkCookie()"> 
+<div>  
+    SafariDataToAppDemo
+</div>  
+   </body>  
+</html>
